@@ -9,17 +9,27 @@
 /* end CSS RESET */
 
 
-
-
 /* ------Utilities------ */
+.flex{
+    display: flex;
+}
 
 .centered{
     padding-left: 100px;
     padding-right: 100px;
 }
 
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
 /* ------Content------ */
 
+/* HEADER */
 header {
     background-color: blue;
     color: #fff;
@@ -35,3 +45,29 @@ header>div{
     width: 125px;
 }
 
+/* /HEADER */
+
+/* MAIN */
+
+main{
+    padding-top: 100px;
+  }
+
+.card{
+    padding: 10px;
+    margin: 0px 10px;
+    width: calc(100% / 3 - 20px);
+    flex-shrink: 0;
+    border-radius: 10px;
+    position: relative;
+  }
+
+    .card>figure{
+        background-color: #eee;
+    }
+
+  main section{
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+/* /MAIN */
