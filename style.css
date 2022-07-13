@@ -30,7 +30,7 @@
 /* ------Content------ */
 
 /* HEADER */
-header {
+header{
     background-color: blue;
     color: #fff;
     position: fixed;
@@ -66,8 +66,24 @@ main{
         background-color: #eee;
     }
 
-  main section{
+  /* main section{
     margin-left: -10px;
     margin-right: -10px;
-  }
+  } */
 /* /MAIN */
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(150, 4, 242);
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    bottom: 0;
+}
+
+/* /FOOTER */
