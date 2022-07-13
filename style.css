@@ -13,6 +13,25 @@
 
 /* ------Utilities------ */
 
-
+.centered{
+    padding-left: 100px;
+    padding-right: 100px;
+}
 
 /* ------Content------ */
+
+header {
+    background-color: blue;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+header>div{
+    width: 125px;
+}
+
