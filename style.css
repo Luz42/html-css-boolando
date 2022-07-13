@@ -115,6 +115,14 @@ main{
         font-weight: bold;
 }
 
+figcaption span{
+    font-size: 0.6rem;
+}
+
+figcaption h3{
+    font-size: 0.7rem;
+}
+
 .sale{
         background-color: red;
         margin-right: 2%;
@@ -127,11 +135,11 @@ main{
 .price{
     color: red;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 0.6rem;
 }
 
 .full-price{
-    font-size: 0.9rem;
+    font-size: 0.6rem;
     text-decoration: line-through;
 }
 
