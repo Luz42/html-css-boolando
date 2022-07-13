@@ -59,7 +59,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-content: center;
-    z-index: 1;
+    z-index: 2;
 }
 
 header>div{
@@ -96,6 +96,8 @@ main{
   background-color: #eee;
 }
 
+
+
 .card figure{
     position: relative;
 }
@@ -105,7 +107,9 @@ main{
 } */
 .discount{
     position: absolute;
-    bottom: 7%;}
+    bottom: 7%;
+    z-index: 2;
+}
 
 .discount.flex div{
         padding: 2%;
@@ -143,6 +147,14 @@ figcaption h3{
     text-decoration: line-through;
 }
 
+.hover{
+    position: absolute;
+    z-index: -1;
+}
+
+.fix{
+    position: relative;
+}
 
 .heart{
     position: absolute;
@@ -152,6 +164,16 @@ figcaption h3{
     background-color: #fff;
     width: 11%;
     text-align: center;
+    cursor: default;
+    z-index: 2;
+}
+
+.card:hover .heart{
+    color: red;
+}
+
+.card:hover .hover{
+    z-index: 1;
 }
 
   /* main section{
