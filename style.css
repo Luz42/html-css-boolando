@@ -156,7 +156,7 @@ main{
 /* FOOTER */
 
 footer{
-    background-color: rgb(150, 4, 242);
+    background-color: #1a1a1a;
     color: #fff;
     /* position: fixed; */
     width: 100%;
@@ -164,6 +164,20 @@ footer{
     justify-content: space-between;
     align-content: center;
     bottom: 0;
+    font-size: 0.7rem;
+}
+
+.info-links a:first-of-type{
+    padding-left: 0;
+}
+
+footer a{
+    padding-top: 2%;
+}
+
+.connect h4{
+    display: inline-block;
+    padding: 5% 0;
 }
 
 /* /FOOTER */
