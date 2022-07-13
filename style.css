@@ -31,8 +31,8 @@ a{
 }
 
 .centered{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 /* .text-right{
@@ -55,7 +55,7 @@ header{
     color: #fff;
     position: fixed;
     width: 100%;
-    padding: 10px;
+    padding: 1%;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -79,7 +79,7 @@ header a{
 
 /* MAIN */
 main{
-    padding-top: 100px;
+    padding-top: 5%;
     z-index: -1;
   }
 
@@ -89,7 +89,7 @@ main{
     width: calc(100% / 3 - 20px);
     flex-shrink: 0;
     border-radius: 10px;
-    position: relative;
+    /* position: relative; */
   }
 
  .card>figure{
@@ -100,30 +100,28 @@ main{
     position: relative;
 }
 
-.card figure div{
+/* .card figure div{
     position: absolute;
+} */
+.discount{
+    position: absolute;
+    bottom: 7%;}
+
+.discount.flex div{
+        padding: 2%;
+        bottom: 7%;
+        color: #fff;
+        font-size: 0.6rem;
+        font-weight: bold;
 }
 
 .sale{
-        padding: 2%;
         background-color: red;
-        position: absolute;
-        bottom: 7%;
-        color: #fff;
-        font-size: 0.9rem;
-        font-weight: bold;
+        margin-right: 2%;
     }
 
 .eco{
-    padding: 2%;
         background-color: green;
-        position: absolute;
-        bottom: 7%;
-        color: #fff;
-        font-size: 0.9rem;
-        font-weight: bold;
-        left: 15%;
-        
 }
 
 .price{
@@ -139,6 +137,7 @@ main{
 
 
 .heart{
+    position: absolute;
     right: 0;
     top: 2%;
     font-size: x-large;
