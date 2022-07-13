@@ -5,9 +5,21 @@
     padding: 0;
     margin: 0;
 }
-
 /* end CSS RESET */
 
+body{
+    font-family: sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 0 3px;
+}
 
 /* ------Utilities------ */
 .flex{
@@ -19,23 +31,27 @@
     padding-right: 100px;
 }
 
-.text-right{
+/* .text-right{
     text-align: right;
 }
 
 .text-center{
     text-align: center;
+} */
+
+.align-center{
+    align-items: center;
 }
 
 /* ------Content------ */
 
 /* HEADER */
 header{
-    background-color: blue;
+    background-color: #ff6900;
     color: #fff;
     position: fixed;
     width: 100%;
-    padding: 20px 10px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -43,6 +59,15 @@ header{
 
 header>div{
     width: 125px;
+}
+header a{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.svg{
+    flex-basis: 20px;
+    padding: 0 3px;
 }
 
 /* /HEADER */
@@ -62,10 +87,9 @@ main{
     position: relative;
   }
 
-    .card>figure{
-        background-color: #eee;
-    }
-
+ .card>figure{
+  background-color: #eee;
+}
   /* main section{
     margin-left: -10px;
     margin-right: -10px;
@@ -80,7 +104,6 @@ footer{
     position: fixed;
     width: 100%;
     padding: 20px 10px;
-    display: flex;
     justify-content: space-between;
     align-content: center;
     bottom: 0;
