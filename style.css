@@ -26,6 +26,10 @@ a{
     display: flex;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 .centered{
     padding-left: 100px;
     padding-right: 100px;
@@ -55,6 +59,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-content: center;
+    z-index: 1;
 }
 
 header>div{
@@ -73,9 +78,9 @@ header a{
 /* /HEADER */
 
 /* MAIN */
-
 main{
     padding-top: 100px;
+    z-index: -1;
   }
 
 .card{
@@ -90,6 +95,58 @@ main{
  .card>figure{
   background-color: #eee;
 }
+
+.card figure{
+    position: relative;
+}
+
+.card figure div{
+    position: absolute;
+}
+
+.sale{
+        padding: 2%;
+        background-color: red;
+        position: absolute;
+        bottom: 7%;
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+
+.eco{
+    padding: 2%;
+        background-color: green;
+        position: absolute;
+        bottom: 7%;
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: bold;
+        left: 15%;
+        
+}
+
+.price{
+    color: red;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.full-price{
+    font-size: 0.9rem;
+    text-decoration: line-through;
+}
+
+
+.heart{
+    right: 0;
+    top: 2%;
+    font-size: x-large;
+    background-color: #fff;
+    width: 11%;
+    text-align: center;
+}
+
   /* main section{
     margin-left: -10px;
     margin-right: -10px;
@@ -101,7 +158,7 @@ main{
 footer{
     background-color: rgb(150, 4, 242);
     color: #fff;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     padding: 20px 10px;
     justify-content: space-between;
