@@ -79,7 +79,7 @@ header a{
 
 /* MAIN */
 main{
-    padding-top: 5%;
+    padding: 5% 0;
     z-index: -1;
   }
 
@@ -88,11 +88,10 @@ main section{
 }
 
 .card{
-    padding: 10px;
-    margin: 0px 10px;
-    width: calc(100% / 3 - 40px);
+    /* padding: 10px; */
+    margin-top: 2%;
+    width: calc(100% / 3 - 5px);
     flex-shrink: 0;
-    border-radius: 10px;
     /* position: relative; */
   }
 
