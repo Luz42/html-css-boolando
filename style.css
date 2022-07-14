@@ -21,6 +21,11 @@ a{
     padding: 0 3px;
 }
 
+i{
+    flex-basis: 20px;
+    padding: 0 3px;
+}
+
 /* ------Utilities------ */
 .flex{
     display: flex;
@@ -70,11 +75,9 @@ header a{
     font-size: 0.8rem;
 }
 
-.svg{
-    flex-basis: 20px;
-    padding: 0 3px;
+header>.icons{
+    justify-content: flex-end;
 }
-
 /* /HEADER */
 
 /* MAIN */
